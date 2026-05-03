@@ -17,6 +17,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Torque Authority - Expert Car Reviews & Performance Analysis</title>
     <link rel="stylesheet" href="styles-new.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8JW943DFEB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-8JW943DFEB');
+    </script>
 </head>
 
 <body>
@@ -25,15 +34,14 @@
         <nav class="navbar">
             <div class="nav-container">
                 <div class="logo">
-                    <a href="index-new.html" class="logo-link" title="Torque Authority Home">
+                    <a href="index.html" class="logo-link" title="Torque Authority Home">
                         <span class="logo-text">TORQUE AUTHORITY</span>
-                        <img src="images/logo.jpeg" alt="Torque Authority Logo" style="height: 40px; margin-right: 10px; vertical-align: middle;">
                     </a>
                 </div>
                 <ul class="nav-menu">
                     <li><a href="#reviews" class="nav-link">Reviews</a></li>
                     <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#contact" class="nav-link contact-btn">Contact</a></li>
+                    <li><a href="#social" class="nav-link contact-btn">Follow Us</a></li>
                 </ul>
                 <div class="hamburger">
                     <span></span>
@@ -45,16 +53,18 @@
     </header>
 
     <main>
-        <!-- Hero Section -->
+        <!-- Hero Section with Background Image -->
         <section class="hero">
             <div class="hero-content">
                 <h1 class="hero-title">DRIVE LIKE YOU MEAN IT</h1>
-                <p class="hero-subtitle">Expert reviews and insights for the cars that matter to you</p>
-                <a href="#reviews" class="cta-button">Explore Reviews</a>
+                <p class="hero-subtitle">Expert reviews and insights for cars that matter</p>
+                <div class="hero-cta">
+                    <a href="#reviews" class="cta-button primary">Explore Reviews</a>
+                </div>
             </div>
         </section>
 
-        <!-- Featured Reviews -->
+        <!-- Featured Reviews Section -->
         <section id="reviews" class="reviews-section">
             <div class="section-container">
                 <h2 class="section-title">Latest Reviews</h2>
@@ -62,12 +72,16 @@
                     <!-- Review 1: Porsche -->
                     <article class="review-card">
                         <div class="card-image">
-                            <img src="images/porsche-review.jpg" alt="Porsche 911 GT3 S/C - High-Performance Sports Car">
+                            <img src="images/porsche-review.jpg"
+                                alt="Porsche 911 GT3 S/C - High-Performance Sports Car">
                         </div>
                         <div class="card-content">
                             <p class="review-meta">Porsche 911 GT3 S/C</p>
-                            <h3><a href="porsche-review.html" class="review-title">Porsche Has Finally Gone Completely Mad (And It's Glorious)</a></h3>
-                            <p class="review-excerpt">Discover what happens when Porsche removes the roof from their most extreme performance machine. Naturally aspirated, 9,000 RPM, and gloriously unfiltered.</p>
+                            <h3><a href="porsche-review.html" class="review-title">Porsche Has Finally Gone Completely
+                                    Mad (And It's Glorious)</a></h3>
+                            <p class="review-excerpt">Discover what happens when Porsche removes the roof from their
+                                most extreme performance machine. Naturally aspirated, 9,000 RPM, and gloriously
+                                unfiltered.</p>
                             <a href="porsche-review.html" class="read-more">Read Review →</a>
                         </div>
                     </article>
@@ -79,8 +93,10 @@
                         </div>
                         <div class="card-content">
                             <p class="review-meta">Mustang GTD</p>
-                            <h3><a href="mustang-review.html" class="review-title">The Mustang GTD Just Smashed the Nürburgring…ish</a></h3>
-                            <p class="review-excerpt">Ford's latest track weapon claims a 6:40 lap time at the legendary Green Hell. We dig into the details and ask the tough questions about that record.</p>
+                            <h3><a href="mustang-review.html" class="review-title">The Mustang GTD Just Smashed the
+                                    Nürburgring…ish</a></h3>
+                            <p class="review-excerpt">Ford's latest track weapon claims a 6:40 lap time at the legendary
+                                Green Hell. We dig into the details and ask the tough questions about that record.</p>
                             <a href="mustang-review.html" class="read-more">Read Review →</a>
                         </div>
                     </article>
@@ -92,8 +108,10 @@
                         </div>
                         <div class="card-content">
                             <p class="review-meta">Nissan Skyline</p>
-                            <h3><a href="skyline-review.html" class="review-title">The Skyline Is Finally Back… and It Might Actually Mean Something Again</a></h3>
-                            <p class="review-excerpt">The legendary nameplate returns with modern ambition. We explore what this revival means for the Skyline's storied heritage and future potential.</p>
+                            <h3><a href="skyline-review.html" class="review-title">The Skyline Is Finally Back… and It
+                                    Might Actually Mean Something Again</a></h3>
+                            <p class="review-excerpt">The legendary nameplate returns with modern ambition. We explore
+                                what this revival means for the Skyline's storied heritage and future potential.</p>
                             <a href="skyline-review.html" class="read-more">Read Review →</a>
                         </div>
                     </article>
@@ -106,19 +124,43 @@
             <div class="section-container">
                 <div class="about-content">
                     <h2>About Torque Authority</h2>
-                    <p>Since 2020, Torque Authority has been the trusted voice for automotive enthusiasts. We don't just review cars—we tell their stories. Our team of experienced engineers, former race car drivers, and passionate automotive journalists spend weeks with each vehicle, testing them in real-world conditions.</p>
-                    <p>Whether you're looking for your daily commuter or your dream machine, we provide the insights you need to make an informed decision. Performance data, honest commentary, and a genuine love for cars drive everything we do.</p>
+                    <p>Since 2020, Torque Authority has been the trusted voice for automotive enthusiasts. We don't just
+                        review cars—we tell their stories. Our team of experienced engineers, former race car drivers,
+                        and passionate automotive journalists spend weeks with each vehicle, testing them in real-world
+                        conditions.</p>
+                    <p>Whether you're looking for your daily commuter or your dream machine, we provide the insights you
+                        need to make an informed decision. Performance data, honest commentary, and a genuine love for
+                        cars drive everything we do.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Links Section -->
+        <section id="social" class="social-section">
+            <div class="section-container">
+                <h2>Follow Our Journey</h2>
+                <p>Stay connected with us on social media for daily automotive content and exclusive insights</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/torqueauthority/" target="_blank" rel="noopener noreferrer"
+                        class="social-link instagram" aria-label="Follow Torque Authority on Instagram">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm4.965-10.322a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001z" />
+                        </svg>
+                        <span>Instagram</span>
+                    </a>
                 </div>
             </div>
         </section>
 
         <!-- Newsletter Section -->
-        <section id="contact" class="newsletter-section">
+        <section class="newsletter-section">
             <div class="section-container">
                 <h2>Stay in the Driver's Seat</h2>
                 <p>Get the latest reviews and automotive news delivered to your inbox</p>
                 <form class="newsletter-form">
-                    <input type="email" placeholder="Enter your email" required aria-label="Email for newsletter subscription">
+                    <input type="email" placeholder="Enter your email" required
+                        aria-label="Email for newsletter subscription">
                     <button type="submit" class="btn-submit">Sign Up</button>
                 </form>
             </div>
@@ -130,14 +172,15 @@
         <div class="footer-content">
             <div class="footer-section">
                 <h4>TORQUE AUTHORITY</h4>
-                <p>Expert car reviews and automotive insights for enthusiasts. From hypercars to daily drivers, we cover the machines that matter.</p>
+                <p>Expert car reviews and automotive insights for enthusiasts. From hypercars to daily drivers, we cover
+                    the machines that matter.</p>
             </div>
             <div class="footer-section">
                 <h4>NAVIGATION</h4>
                 <ul>
                     <li><a href="#reviews">Reviews</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#social">Follow Us</a></li>
                 </ul>
             </div>
             <div class="footer-section">
